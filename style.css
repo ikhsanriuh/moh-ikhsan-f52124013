@@ -86,16 +86,20 @@ button:hover {
 .link a:hover {
     text-decoration: underline;
 }
-.show-password {
+.checkbox-wrapper {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-top: -10px;
-    margin-bottom: 15px;
+    margin: 5px 0 15px 0;
     font-size: 14px;
 }
 
-.show-password input {
-    width: auto;
+.checkbox-wrapper input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.checkbox-wrapper label {
     cursor: pointer;
 }
