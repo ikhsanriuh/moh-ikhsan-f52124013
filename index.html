@@ -12,18 +12,19 @@
     <h2>Login</h2>
     
     <form action="#" method="post">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Masukkan username" required>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Masukkan password" required>
 
-        <div style="margin-bottom:10px;">
-            <input type="checkbox" onclick="togglePassword()"> Tampilkan Password
-        </div>
+    <div class="show-password">
+        <input type="checkbox" id="showPass" onclick="togglePassword()">
+        <label for="showPass">Tampilkan Password</label>
+    </div>
 
-        <button type="submit">Login</button>
-    </form>
+    <button type="submit">Login</button>
+</form>
 
     <div class="link">
         Belum punya akun? <a href="regis.html">Daftar di sini</a>
